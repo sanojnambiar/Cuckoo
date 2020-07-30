@@ -170,7 +170,7 @@
 		5B50032766FD487D60BCB600 /* ParameterMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A843913B61AB11A80097F51 /* ParameterMatcher.swift */; };
 		5E7D1CB26C8CE71269F025E9 /* MockBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0889A597AF4CCA8841B471 /* MockBuilder.swift */; };
 		5EE0A57E2B90191B395C84E8 /* GenericClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01C5ABA73DC1B0CCE088669 /* GenericClass.swift */; };
-		5F89B038A87B788853E2D366 /* Cuckoo_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29A6852598014A495CF05BF /* Cuckoo_iOS.framework */; };
+		5F89B038A87B788853E2D366 /* Cuckoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29A6852598014A495CF05BF /* Cuckoo.framework */; };
 		5FA6BE80AA9CE9BD3BA16111 /* Cuckoo-BridgingHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A78767AF78A5705F914CB5F1 /* Cuckoo-BridgingHeader.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		610B9F6B3C52E7241A80FC27 /* ObjcProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C36C0536DBF7EDA3C2B96 /* ObjcProtocol.swift */; };
 		6185ED8EF7CDC1EB4A859B6B /* GenericMethodClassTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B965102D09D6B0E94CDA8EA /* GenericMethodClassTest.swift */; };
@@ -380,7 +380,7 @@
 		D3C9DF9D6A359FD9E9625013 /* StubNoReturnFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700931036CB43C60AEFB7FEB /* StubNoReturnFunction.swift */; };
 		D477FC12C92D54376DA507B5 /* ClassTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6873C8013002AFEA7565BDAC /* ClassTest.swift */; };
 		D4AB2487A9A71CAC5C873251 /* VerificationProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21CD7B8ADE5ABE0295581D4 /* VerificationProxy.swift */; };
-		D4C9963ED591F570EFCCBD34 /* Cuckoo_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C29A6852598014A495CF05BF /* Cuckoo_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D4C9963ED591F570EFCCBD34 /* Cuckoo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C29A6852598014A495CF05BF /* Cuckoo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D592614C68488F8BDEFA963C /* VerifyProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FC6D19235B2C8F2DBAA7B /* VerifyProperty.swift */; };
 		D704EBE1834FBD51B71A3B3A /* StubCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3EB970DE7CF1D83AC121F /* StubCall.swift */; };
 		D7312FFFE42B8FE881D9BBE0 /* NSValueConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989EFADEC10AB6D627A5FAE6 /* NSValueConvertible.swift */; };
@@ -613,7 +613,7 @@
 			buildActionMask = 2147483647;
 			dstSubfolderSpec = 10;
 			files = (
-				D4C9963ED591F570EFCCBD34 /* Cuckoo_iOS.framework in Embed Frameworks */,
+				D4C9963ED591F570EFCCBD34 /* Cuckoo.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -820,7 +820,7 @@
 		BE8D6304542FA91BF6FB258B /* Cuckoo_OCMock_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cuckoo_OCMock_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C098AF8615D415382551673E /* Cuckoo_OCMock-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Cuckoo_OCMock-tvOS.plist"; sourceTree = "<group>"; };
 		C0A3B9B776340082AC6DDE9A /* StringProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringProxy.h; sourceTree = "<group>"; };
-		C29A6852598014A495CF05BF /* Cuckoo_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cuckoo_iOS.framework; path = Cuckoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C29A6852598014A495CF05BF /* Cuckoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cuckoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D36A00ADFA42CC4C411F3E /* ObjectiveProtocolTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveProtocolTest.swift; sourceTree = "<group>"; };
 		C4EE835028C106C3224377E6 /* Cuckoo-macOSTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Cuckoo-macOSTests.plist"; sourceTree = "<group>"; };
 		C55014A1A85497F2153371D7 /* TestUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUtils.swift; sourceTree = "<group>"; };
@@ -887,7 +887,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F89B038A87B788853E2D366 /* Cuckoo_iOS.framework in Frameworks */,
+				5F89B038A87B788853E2D366 /* Cuckoo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1110,7 +1110,7 @@
 		512C697A5D123B937FE97812 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C29A6852598014A495CF05BF /* Cuckoo_iOS.framework */,
+				C29A6852598014A495CF05BF /* Cuckoo.framework */,
 				078A8096CCC31B331AA8D537 /* Cuckoo_iOSTests.xctest */,
 				1E13C3DFFA9A3676F92404B7 /* Cuckoo_macOS.framework */,
 				2776FBCC90C18A2F8C28CB85 /* Cuckoo_macOSTests.xctest */,
@@ -1527,7 +1527,7 @@
 			);
 			name = "Cuckoo-iOS";
 			productName = Cuckoo_iOS;
-			productReference = C29A6852598014A495CF05BF /* Cuckoo_iOS.framework */;
+			productReference = C29A6852598014A495CF05BF /* Cuckoo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6AD4A9670FA783A1EC213000 /* Cuckoo-tvOSTests */ = {
@@ -3188,7 +3188,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Derived/InfoPlists/Cuckoo-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3221,7 +3221,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Derived/InfoPlists/Cuckoo-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
